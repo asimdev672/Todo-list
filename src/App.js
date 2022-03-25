@@ -13,6 +13,10 @@ function App() {
    }
 
  const clicked=()=>{
+   if(inputList==='')
+  {    alert('plz enter the value')
+  }
+  else
   setitem((olditem)=>{
     return [...olditem,inputList];
     
